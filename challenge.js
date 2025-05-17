@@ -1,10 +1,13 @@
 // create a function called getCelsius() that takes a temperature in Fahrenheit as an argument and returns the temperature in celsius.
 
-const getCelsius = (Fahrenheit) => {
-  // const convert = ((Fahrenheit - 32) * 5) / 9;
-  // console.log(((Fahrenheit - 32) * 5) / 9);
-  const result = Math.ceil(((Fahrenheit - 32) * 5) / 9);
-  console.log(`The Temperature is ${result} \xB0C`);
-};
+// function expression
+// const getCelsius = (Fahrenheit) => {
+//   const celsius = Math.ceil(((Fahrenheit - 32) * 5) / 9);
+//   return `The Temperature is ${celsius} \xB0C`;
+// };
 
-getCelsius(150);
+// console.log(getCelsius(150));
+
+// arrow function
+const getCelsius = (f) => Math.ceil(((f - 32) * 5) / 9);
+console.log(`The temp is ${getCelsius(100)}\xB0C`);
