@@ -11,3 +11,11 @@
 // arrow function
 const getCelsius = (f) => Math.ceil(((f - 32) * 5) / 9);
 console.log(`The temp is ${getCelsius(100)}\xB0C`);
+
+// challenge 3
+
+/*
+create an arrow function call minMax() that takes in an array of numbers and returns an object with the minimum number in an array
+*/
+
+const minMax = () => {};
